@@ -121,8 +121,8 @@ class GessGame:
 
             row_diff = pos[0] - from_index[0]
             col_diff = pos[1] - from_index[1]
-            # # validate if there is a piece at the direction this player wants to move to
-            # # store to direction list if a piece is presented
+            # validate if there is a piece at the direction this player wants to move to
+            # store to direction list if a piece is presented
             if (self._board._board[pos[0]][pos[1]] == 'w') or (self._board._board[pos[0]][pos[1]] == 'b'):
                 direction_list.append([row_diff, col_diff])
 
@@ -222,17 +222,9 @@ class GessGame:
 
             # update game_state
             self._game_state = self.game_result_validation()
-            # print(self._game_state)
             # change turns
             self.update_turn()
-            # current_player = self.get_player()
-            # print("Next player:", current_player)
             return True
-            # return self._board.board_display()
-        # else:
-        #     current_player = self.get_player()
-        #     # print("Next player:", current_player)
-        #     return False
 
     def _make_move(self, from_pos, to_pos):
         """
@@ -248,7 +240,6 @@ class GessGame:
         :return return the legal movement that a player can make
         """
         current_player = self.get_player()
-        # print("Current player:", current_player)
 
         game_state = self.get_game_state()
 
