@@ -1,10 +1,9 @@
 # GessGame
 
-To play the game in a two-player version from the command line, please run.
+To play the game in terminal, please run.
 ```
 python3 play_game.py
 ```
-in your terminal. 
 
 ## Project Specification 
 
