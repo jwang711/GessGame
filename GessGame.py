@@ -1,7 +1,3 @@
-# author: Jing Wang
-# data 5/17/2020
-# description: a game simulator for the Gess game
-
 class GessGame:
     """
     Class that allows players to play Gess.
