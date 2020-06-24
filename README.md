@@ -1,7 +1,5 @@
 # GessGame
 
-Description: This is a complete implementation for the Gess Game. 
-
 To play the game in terminal, please run.
 ```
 python3 play_game.py
